@@ -1,0 +1,87 @@
+.law{
+    background-color: var(--bg-dimwhite-900);
+}
+
+.laywer_city{
+    font-size: 95% !important;
+    margin-top: -10px !important;
+  
+   
+}
+.laywer_exp{
+    margin-top: -10px !important;
+    font-size: 90% !important;
+    font-weight: 600 !important;
+}
+.star{
+    margin-top: -15px !important; 
+    
+}
+.all_lmsg{
+    background-color: #4C525A !important;
+    border-radius: 0px 10px 10px 10px;
+}
+.all_lmsg1{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--primary) !important;
+}
+.ab{
+    justify-content: center !important;
+   
+}
+.save{
+    margin-top: -16px !important;
+    font-size: 80% !important;
+}
+.lprocls{
+    height: 130px;
+    border-radius: 50%;
+    width: 130px;
+    border: 1px solid var(--primary) !important;
+}
+
+/* media query */
+@media (max-width: 379px){
+    .advocate_main_profile .lprocls{
+        width:80px;
+        height: 80px;
+    } 
+    .advocate_main_profile .ad_name{
+        font-size: 95% !important;
+    } 
+    .advocate_main_profile .ad_exp{
+        font-size: 62% !important;
+    } 
+    .advocate_main_profile .ad_connect{
+        width: 150% !important;
+        margin-left: -20px;
+    }
+
+    .advocate_page_section{
+       text-align: center !important;
+    }
+}
+
+@media (max-width: 480px){
+    .lawyer_upload_images_second{
+        width:100%;
+    }
+    .advocate_page_section{
+        text-align: center !important;
+     }
+  
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .lawyer_upload_images_second{
+        width:100%;
+    }
+    .lawyer_location_map iframe{
+        height: 35vh;
+    }
+    .advocate_page_section{
+        text-align: center !important;
+     }
+}

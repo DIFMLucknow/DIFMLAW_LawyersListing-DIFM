@@ -1,0 +1,338 @@
+body{
+    background-color: var(--secondary);
+}
+#cat{
+    color: var(--primary) !important;
+}
+.section-2{
+    background-color: var(--second-primary);
+}
+.contz0{
+    line-height: 19px;
+    font-size: 14px;
+    width: 90%;
+    margin-left: 15px;
+}
+.font-color{
+    color: var(--primary) !important;
+}
+.categories{
+padding-bottom: 90px;
+}
+.category{
+    background-color: var(--second-secondary);
+    border-radius: 17px !important;
+}
+h6{
+font-weight: 490;
+font-size: 16px;
+line-height: 19px; 
+} 
+.arrow-icon:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.arrow-icons:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+  }
+p{
+    font-weight: 490;
+font-size: 22px;
+line-height: 28px;
+}
+.ecard:hover{
+ transform: scale(1.05);
+ transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+  .ecard .text-darks{
+    font-weight: 400 !important;
+    color: rgba(0, 0, 0, 0.877) !important;
+  }
+#suggest{
+    color: var(--primary);
+    font-weight: 700;
+font-size: 100%;
+line-height: 75px;
+}
+#ques{
+    width: 40px !important;
+    height: 80px !important;
+}
+.cont{
+    color: var(--third-primary);
+    border-radius: 9px; 
+    font-weight: 600 !important;
+    font-size: larger !important;
+    height: auto !important;
+    margin-top: 10% !important;
+}
+.suggestion{
+    position: absolute;
+    margin-left: 6% !important;
+    width: 55% !important;
+    padding: 0.7%;
+    margin-top: -70px;
+    border-radius: 20px !important;
+    height: auto !important;
+    background-color: var( --fourth-primary) !important;
+}
+
+.cat_law{
+    height: 200px;
+}
+
+
+
+
+
+.featured{
+    margin-top: 100px !important;
+}
+
+.lawyers{
+    background-color: var( --third-primary);
+}
+.viewbtn{
+    border-radius: 50px !important;
+    font-size: 83.2% !important;
+    border: 2px solid var(--primary);
+}
+
+.sfcs:hover{
+   background: var(--second-secondary) !important;
+   color: var(--third-primary) !important;
+   font-weight: 600;
+   font-size: 83.2% !important;
+   border: 2px solid var(--primary);
+   /* border-color: var(--primary) !important; */
+}
+
+.exp{
+font-size: 69.59% !important;
+font-weight: 600 !important;
+}
+.card{
+    border-radius: 17px !important;
+}
+.lawyers-desc{
+    font-size: 13px !important;
+    color: #585858;
+
+font-style: normal;
+font-weight: 490 !important;
+/* font-size: 12px; */
+line-height: 21px !important;
+}
+
+.city{
+    margin-top: -7px !important;
+    font-size: 14px !important;
+    /* font-weight: 0 !important; */
+}
+
+.lawyers-card{
+    margin-top: 59px !important;
+    width: 300px;
+    justify-content: space-between !important;
+    margin: auto;
+    background-color: var(--second-secondary) !important;
+    
+}
+.lawyers_profile{
+    margin: 60px;
+}
+.lawyer{
+    margin-top: -20px !important;
+}
+.lawpics{
+    height: 65px;
+    border-radius: 50%;
+    width: 65px;
+    margin-top: -8px;
+    border: 2px solid var(--primary) !important;
+}
+.summ{
+    margin: 0;
+    text-indent: 0rem;
+    text-align: justify;
+  }
+
+/* media query for lawyer profile card */
+
+  @media only screen and (min-width: 588px) and (max-width: 991px){
+    .lawfind1{
+        display: none !important;
+    }
+    .main {
+        margin-top: 79px !important;
+    }
+  }
+
+
+  @media (max-width: 480px){
+
+    .sugg  {
+        font-size: smaller;
+        margin-bottom: 10px !important;
+        
+      }
+      .suggestion{
+        margin-right: 5% !important;
+          height: auto !important;
+          width: auto !important;
+          padding-bottom: 3%;
+          margin-top: -100px;
+      }
+      .fs-1{      
+          font-size: x-large !important;
+      }
+      .cont{
+          margin-top: auto !important;
+      }
+      .sal{
+          margin-top: -100px !important;
+          
+      }
+      .lawfind1{
+          display: none;
+      }
+      .main{
+          height: 390px !important;
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.144) !important;
+        }
+        .cont{
+          height: 50px !important;
+        }
+        .ecard{
+          margin-top: -34px !important;
+          padding: 2rem!important;
+        }
+        .mss-4 {
+          margin-left: 2.9rem!important;
+      }
+      .devider_page {
+          margin-top: -16% !important;
+      }
+      .sel1{
+          margin-top: 6px !important;
+      margin-bottom: 16px !important;
+      }
+  }
+@media only screen and (min-width: 481px) and (max-width: 767px){
+
+    .sugg  {
+        font-size: smaller;
+        margin-bottom: 10px !important;
+        
+      }
+      .suggestion{
+        margin-right: 5% !important;
+        height: 180px !important;
+        width: auto !important;
+      }
+      .fs-1{      
+          font-size: x-large !important;
+      }
+      .cont{
+          margin-top: -40px !important;
+      }
+      .sal{
+          margin-top: -100px !important;
+          
+      }
+      .lawfind1{
+          display: none;
+      }
+      .main{
+          height: 390px !important;
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.144) !important;
+        }
+        .cont{
+          height: 50px !important;
+        }
+        .ecard{
+          margin-top: -34px !important;
+          padding: 2rem!important;
+        }
+        .mss-4 {
+          margin-left: 2.9rem!important;
+      }
+      .devider_page {
+          margin-top: -16% !important;
+      }
+      .sel1{
+          margin-top: 6px !important;
+      margin-bottom: 16px !important;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .sugg  {
+        font-size: smaller;
+        margin-bottom: 10px !important;
+        
+      }
+      .suggestion{
+        margin-left: 19px !important;
+        margin-right: 20px;
+        height: auto !important;
+        width: 80% !important;
+        margin-top: -80px !important;
+        padding-bottom: 3%;
+      }
+      .fs-1{      
+          font-size: x-large !important;
+      }
+      .cont{
+          margin-top: auto !important;
+      }
+      .sal{
+          margin-top: -100px !important;
+          
+      }
+      .lawfind1{
+          display: none;
+      }
+      .main{
+          height: 390px !important;
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.144) !important;
+        }
+        .cont{
+          height: 50px !important;
+        }
+        .ecard{
+          margin-top: -34px !important;
+          padding: 2rem!important;
+        }
+        .mss-4 {
+          margin-left: 2.9rem!important;
+      }
+      .devider_page {
+          margin-top: -16% !important;
+      }
+      .sel1{
+          margin-top: 6px !important;
+      margin-bottom: 16px !important;
+      }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+      .suggestion{
+        margin-left: -20px !important;
+        width: 90% !important;
+        height: auto !important;
+      }    
+     
+}
+@media only screen and (min-width: 1281px) and (max-width: 1826px){
+    .suggestion{
+      margin-left: -20px !important;
+      width: 90% !important;
+      height: auto !important;
+    }    
+   
+}

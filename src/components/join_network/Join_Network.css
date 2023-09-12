@@ -1,0 +1,144 @@
+.legal_network {
+  position: absolute;
+  margin-left: 6.3% !important;
+  width: 55%;
+  padding: 2.1%;
+  margin-top: -70px;
+  border-radius: 20px !important;
+  background-color: var(--fourth-primary);
+}
+.lagal_part {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: justify !;
+
+  color: #585858;
+}
+.reg_btn {
+  width: 40% !important;
+  margin-left: 19px !important;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.747) !important;
+  font-size: 93.2% !important;
+  border-radius: 9px;
+  /* margin: auto !important; */
+}
+
+
+ @media only screen and (min-width: 991px) and (max-width: 1023px) {
+  .asa{
+  margin-top: 20%;
+}
+}
+
+
+@media (max-width: 480px){
+  .legal_network{
+    width: 94%;
+    padding: 12%;
+    margin-left: 4px !important;
+    margin-top: -140px;
+}
+.reg_btn{
+    width: 80% !important;
+    margin-top: 10px !important;
+}
+.legalnet{
+    display: none;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 575px){
+  .legal_network{
+    width: 94%;
+    padding: 6%;
+    margin-left: 4px !important;
+    margin-top: -140px;
+}
+.reg_btn{
+    width: 80% !important;
+    margin-top: 10px !important;
+}
+.contact_aboutas{
+  margin-left: -30px !important;
+  margin-top: 25px !important; 
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 600px){
+  .legal_network{
+    width: 94%;
+    padding:6%;
+    margin-left: -20px !important;
+    margin-top: -140px;
+}
+.reg_btn{
+    width: 80% !important;
+    margin-top: 10px !important;
+}
+.contact_aboutas{
+  margin-left: -40px !important;
+  margin-top: 25px !important; 
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 768px){
+  .legal_network{
+    width: 80%;
+    padding:6%;
+    margin-left: -5% !important;
+    margin-top: -140px;
+}
+.reg_btn{
+    width: 80% !important;
+    margin-top: 10px !important;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .legal_network{
+    width: 80%;
+    height: auto !important;
+    padding-bottom: 2% !important;
+    margin-left: auto !important;
+    margin-top: -140px;
+}
+.reg_btn{
+    width: 45% !important;
+    height: auto !important;
+    margin-top: 10px !important;
+}
+.contact_aboutas{
+  margin-left: -40px !important;
+  margin-top: 70px !important; 
+}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+  .legal_network{
+    width: 80%;
+    height: auto !important;
+    padding-bottom: 1% !important;
+    margin-left: auto !important;
+    margin-top: -80px;
+}
+.reg_btn{
+    width: 40% !important;
+    margin-top: 10px !important;
+}
+.contact_aboutas{
+  margin-left: -30px !important;
+  margin-top: 65px !important; 
+  
+}
+}
+@media only screen and (min-width: 1201px) and (max-width: 1826px){
+  .legal_network{
+    width: 80%;
+    height: auto !important;
+    padding-bottom: 1% !important;
+    margin-left: auto !important;
+    margin-top: -90px;
+}
+.reg_btn{
+    width: 45% !important;
+    margin-top: 10px !important;
+}
+}
+

@@ -1,0 +1,123 @@
+.admin_dashboard{
+    width: 82%;
+    margin-top: -41.99%;
+    margin-left: 17.45%;
+    height: 78.40vh;
+}
+.admin_dashboard th, tr, td,
+.admin_dashboard th, tr {
+    border: none;
+    padding: 0.45rem 2rem !important;
+  }
+  .admin_dashboard .admindash{
+    background-color: var(--fourth-primary) !important;
+    border-radius: 0px, 37px, 37px, 37px;
+    width: 100%;
+    margin-top: -43.99%;
+    height: 76.89vh;
+  }
+  .admin_dashboard thead{
+   background-color: #4C525A;
+  }
+  .admin_dashboard .form-control {
+    padding: 0rem 0rem;
+    border: 1px solid  var(--fourth-primary);
+}
+.admin_dashboard .nt{
+  z-index: 0 !important;
+}
+@media (max-width: 480px){
+ 
+
+}
+@media only screen and (max-width:800px) {
+  .admin_dashboard{
+    width: 82%;
+    margin-top: -149.89%;
+    margin-left: 15%;  
+    height: auto !important;
+  }
+  #no-more-tables tbody{
+    height: auto !important;
+  }
+  #no-more-tables tbody,
+  #no-more-tables tr,
+  #no-more-tables td {
+      display: block;
+      overflow: hidden !important;
+  }
+  #no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+  #no-more-tables td {
+      position: relative;
+      padding-left: 45% !important;
+      border: none;
+      border-top: 1px solid #eee;
+  }
+  #no-more-tables td:before {
+      content: attr(data-title);
+      position: absolute;
+      left: 6px;
+      font-weight: bold;
+  }
+  #no-more-tables tr {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+      border: 2px solid var(--primary);
+      margin-bottom: 2%;
+  }
+  .admin_dashboard .admindash{
+    background-color: var(--fourth-primary) !important;
+    border-radius: 0px, 37px, 37px, 37px;
+    width: 100%;
+    margin-top: -43.99%;
+    height: auto !important;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+  #no-more-tables tbody{
+    height: auto !important;
+  }
+  #no-more-tables tbody,
+  #no-more-tables tr,
+  #no-more-tables td {
+      display: block;
+      overflow: hidden !important;
+  }
+  #no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+  #no-more-tables td {
+      position: relative;
+      padding-left: 45% !important;
+      border: none;
+      border-top: 1px solid #eee;
+  }
+  #no-more-tables td:before {
+      content: attr(data-title);
+      position: absolute;
+      left: 6px;
+      font-weight: bold;
+  }
+  #no-more-tables tr {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+      border: 2px solid var(--primary);
+      margin-bottom: 2%;
+  }
+  .admin_dashboard .admindash{
+    background-color: var(--fourth-primary) !important;
+    border-radius: 0px, 37px, 37px, 37px;
+    width: 100%;
+    margin-top: -43.99%;
+    height: auto !important;
+  }
+}

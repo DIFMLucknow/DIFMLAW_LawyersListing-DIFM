@@ -1,0 +1,251 @@
+.view_buttons{
+    background-color: var(--text-blue-700);
+    padding: 0.25%;
+    border-radius: 15px;
+}
+.savelist{
+    margin-top: -12px;
+}
+.filter_btn{
+    display: none;
+}
+
+.nam{
+    margin-top: -7px;
+}
+.profi{
+    margin-top: 40px;
+}
+.alllawyersection:nth-child(odd) {
+    background-color: var(--second-primary);
+    color: var(--second-secondary) !important;
+}
+.alllawyersection:nth-child(even) {
+    background-color: var(--third-primary);
+    color: var(--second-secondary) !important;
+}
+.alllawyersection:hover:nth-child(even){
+   opacity: .89;
+}
+.alllawyersection:hover:nth-child(odd){
+    opacity: .79;
+}
+
+#react-paginate ul {
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 0;
+ }
+ 
+ #react-paginate li {
+    display: inline-block;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    cursor: pointer;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+ }
+ 
+  #react-paginate li a {
+      padding: 5px 10px;
+      display: inline-block;
+      color: var(--primary);
+      outline: none;
+  }
+  #filters{
+    display: block;
+}
+ #react-paginate li.active {
+    background: var(--third-primary);
+    outline: none;
+ }
+ .lawpicd{
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--primary) !important;
+    width: 70px;
+ }
+ .lawyrscard6{
+    background-color: var(--third-primary);
+ }
+
+.view_buttons .nameloc{
+    margin-left: 139px !important;
+    position: absolute;
+}
+.view_buttons .lawexp{
+  margin-left: 150px !important;
+  position: absolute;
+}
+/* @media only screen and (max-width: 767px) {
+    
+} */
+
+
+@media (max-width: 480px){
+     .filter_btn{
+        display: block;
+    }
+    #filters{
+        display: none;
+    }
+    .view_buttons .lawexp{
+        margin-left: 77px !important;
+      }
+      .view_buttons .lawexpv{
+        margin-left: -22px !important;
+      }
+    .res1{
+        margin-top: -74px !important;
+        margin-left: 80px;
+    }
+    .res2{
+        margin-left: 80px;
+    }
+    .res3{
+        margin-top: 2px;
+        margin-left: 50px;
+    }
+    .profi {
+        margin-top: 0% !important;
+        margin-bottom: 10px;
+        width: 45% !important;
+        font-size: 16px !important;
+        height: 42px !important;
+       
+    }
+    
+    .ser input[type="text"] {
+        height: 36px !important;
+        font-size: 14px !important;
+    }
+    .res4{
+        margin-top: -65px !important;
+       
+    }
+    .pop{
+        margin-top: 8px;
+    }
+    .savelist {
+        margin-left: -3px;
+    }
+    .all_lawyer_ad_section .featured h1{
+        margin-top: -65px !important ;
+    }
+    .all_lawyer_ad_section .featured p{
+        margin-top: -75px !important ;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .filter_btn{
+        display: block;
+    }
+    #filters{
+        display: none;
+    }
+    .view_buttons .lawexp{
+        margin-left: 77px !important;
+      }
+      .view_buttons .lawexpv{
+        margin-left: -22px !important;
+      }
+    .res1{
+        margin-top: -74px !important;
+        margin-left: 80px;
+    }
+    .res2{
+        margin-left: 80px;
+    }
+    .res3{
+        margin-top: 2px;
+        margin-left: 50px;
+    }
+    .profi {
+        margin-top: 0% !important;
+        margin-bottom: 10px;
+        width: 45% !important;
+        font-size: 16px !important;
+        height: 42px !important;
+       
+    }
+    
+    .ser input[type="text"] {
+        height: 36px !important;
+        font-size: 14px !important;
+    }
+    .res4{
+        margin-top: -65px !important;
+       
+    }
+    .pop{
+        margin-top: 8px;
+    }
+    .all_lawyer_ad_section .featured h1{
+        margin-top: -65px !important ;
+    }
+    .all_lawyer_ad_section .featured p{
+        margin-top: -75px !important ;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    #filters{
+        display: block !important;
+    }
+    .tb1{
+        font-size: 14px !important;
+        font-weight: 500;
+        padding-left: 15% !important;
+    }
+    .profi {
+        width: 85% !important;
+        margin-top: 100px !important;
+    }
+    .alllawyersection{
+        height: 160px;
+    }
+    .tb12,
+    .tb11{
+        padding-left: 10%;
+    }
+    .lawpicd {
+        height: 60px;
+        width: 60px;
+    }   
+    .res4 {
+        margin-right: -10px !important;
+    }
+    .all_lawyer_ad_section .featured h1{
+        margin-top: -65px !important ;
+    }
+    .all_lawyer_ad_section .featured p{
+        margin-top: -75px !important ;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1968px) { 
+    #filters{
+        display: block !important;
+    }
+}
+
+/* checkbox style */
+input[type="checkbox"]{
+   
+    background-color: #555F6D;
+    
+}
+input[type="checkbox"]:checked{
+    background-color: #A37707;
+    border: 0px solid #A37707
+   
+}
+.bookmarked {
+    background-color: #A37707;
+  }
